@@ -46,7 +46,6 @@ Adder Add(
 );
 
 Instruction_Memory IMEM(
-    .clk  (clk),
     .rst_n(rst_n),
     .addr (PC_out_top), 
     .inst (Instruction_out_top)
