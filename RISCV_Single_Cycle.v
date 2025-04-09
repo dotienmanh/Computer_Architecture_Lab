@@ -45,8 +45,7 @@ Adder Add(
     .sum(PC_Plus4_top)
 );
 
-Instruction_Memory IMEM(
-    .rst_n(rst_n),
+Instruction_Memory IMEM(  //Read Only Memory
     .addr (PC_out_top), 
     .inst (Instruction_out_top)
 );
